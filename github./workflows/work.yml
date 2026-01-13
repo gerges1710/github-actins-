@@ -1,0 +1,15 @@
+name: first workflow
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  first-work-flow:
+    name: first
+    runs-on: ubuntu-latest
+    steps:
+      - name: gogo
+        run: echo "hello"
+        shell: bash
