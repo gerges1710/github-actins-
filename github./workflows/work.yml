@@ -12,4 +12,5 @@ jobs:
     steps:
       - name: gogo
         run: echo "hello"
+        run: echo "fgfg"
         shell: bash
