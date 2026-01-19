@@ -1,4 +1,4 @@
-name: build and push docker imagess
+name: build and push docker imagesss
 
 on:
   push:
